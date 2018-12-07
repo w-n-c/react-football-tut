@@ -24,7 +24,15 @@ class TheMatches extends React.Component {
 	}
 
 	render() {
-		return <div>t</div>
+		const state = this.state
+		return <div className="the_matches_container">
+			<div className="the_matches_wrapper">
+				<div className="left">
+				</div>
+				<div className="right">
+				</div>
+			</div>
+		</div>
 	}
 }
 
