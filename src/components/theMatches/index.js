@@ -4,6 +4,8 @@ import CircularProgress from '@material-ui/core/CircularProgress'
 import { dbMatches } from '../../database'
 import { revArray, dbFormatter } from '../ui/misc'
 
+import LeagueTable from './table'
+
 class TheMatches extends React.Component {
 	state = {
 		loading: true,
@@ -30,6 +32,7 @@ class TheMatches extends React.Component {
 				<div className="left">
 				</div>
 				<div className="right">
+					<LeagueTable />
 				</div>
 			</div>
 		</div>

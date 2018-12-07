@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { firebaseDB } from '../../firebase';
-import { firebaseLooper } from '../ui/misc';
+import { db as firebaseDB } from '../../database';
+import { dbFormatter as firebaseLooper } from '../ui/misc';
 
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
