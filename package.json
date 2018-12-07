@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.5.1",
+    "core-js": "^2.6.0",
     "d3-ease": "^1.0.5",
     "firebase": "^5.5.8",
     "react": "^16.6.3",

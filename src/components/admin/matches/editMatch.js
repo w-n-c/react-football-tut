@@ -366,12 +366,12 @@ class EditMatch extends React.Component {
 									Something is wrong.
 								</div>
 							:''}
+							<div className="admin_submit">
+								<button onClick={(event)=> this.submitForm(event)}>
+									{this.state.formType}
+								</button>
+							</div>
 						</form>
-						<div className="admin_submit">
-							<button onClick={(event)=> this.submitForm(event)}>
-								{this.state.formType}
-							</button>
-						</div>
 					</div>
 				</div>
 			</AdminLayout>
