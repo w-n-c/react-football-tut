@@ -26,3 +26,5 @@ yarn-error.log*
 
 # Mine
 database.js
+
+/.firebase

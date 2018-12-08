@@ -1,5 +1,4 @@
 import React from 'react'
-import CircularProgress from '@material-ui/core/CircularProgress'
 
 import { dbMatches } from '../../database'
 import { revArray, dbFormatter } from '../ui/misc'
