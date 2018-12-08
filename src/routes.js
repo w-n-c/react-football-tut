@@ -5,6 +5,7 @@ import Layout from './hoc/Layout'
 
 import PrivateRoute from './components/routes/private'
 import PublicRoute from './components/routes/public'
+import NotFound from './components/ui/notFound'
 
 import Home from './components/home'
 import SignIn from './components/signin'
@@ -31,6 +32,7 @@ return (
 				<PublicRoute exact path="/the_team" component={TheTeam} {...props}/>
 				<PublicRoute exact path="/the_matches" component={TheMatches} {...props}/>
 				<PublicRoute exact path="/" component={Home} {...props}/>
+				<PublicRoute component={NotFound} {...props}/>
 			</Switch>
 		</Layout>
 	)
